@@ -14,6 +14,8 @@ body {
     margin-right: .3em; }
   body .info-unit {
     margin-bottom: 1rem; }
+    body .info-unit li {
+      color: initial; }
     body .info-unit h2 {
       font-weight: 700; }
     body .info-unit h3 {
@@ -50,15 +52,13 @@ body {
         width: 8rem;
         height: 8rem;
         border-radius: 50%; }
-  .container .side .info-unit ul li {
-    color: initial; }
-    .container .side .info-unit ul li label {
-      display: inline-block;
-      width: 35%; }
-    .container .side .info-unit ul li span {
-      display: inline-block;
-      vertical-align: top;
-      width: 60%; }
+  .container .side .info-unit ul li label {
+    display: inline-block;
+    width: 35%; }
+  .container .side .info-unit ul li span {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%; }
 .container .main {
   position: relative;
   margin-left: 22rem;
@@ -85,7 +85,7 @@ body {
         text-align: right;
         float: right; }
       .container .main .info-unit ul li .info-content li {
-        list-style: circle;
+        list-style: none;
         margin: 0; }
       .container .main .info-unit ul li .info-content .fa {
         font-size: 1em; }
