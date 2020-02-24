@@ -4,8 +4,11 @@
  * 公共部分
  * ------------------------------------------------- */
 
-body{
+html {
 	background: #e5e5e5 url(../../assets/images/background.png);
+}
+
+body{
 	width: 100%;
 	overflow-x: hidden;
 	padding: 1rem 10%;
